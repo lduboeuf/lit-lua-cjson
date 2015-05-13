@@ -10,7 +10,7 @@ lit install lduboeuf/lit-lua-cjson
 ## Translate Lua value to/from JSON
 
 ```lua
-local encode = require('cjson').encode
+local cjson = require('cjson')
 text = cjson.encode(value)
 value = cjson.decode(text)
 ```
