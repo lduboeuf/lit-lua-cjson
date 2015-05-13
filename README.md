@@ -2,6 +2,19 @@
 lit wrapper for Mark Pulford's lua-cjson library
 http://www.kyne.com.au/~mark/software/lua-cjson.php
 
+#install
+lit install lduboeuf/lit-lua-cjson
+
+#usage
+
+## Translate Lua value to/from JSON
+
+```lua
+local encode = require('cjson').encode
+text = cjson.encode(value)
+value = cjson.decode(text)
+```
+more exemple of use can be found in manual.txt from Mark Pulford's lua-cjson repository
 
 #License
 
