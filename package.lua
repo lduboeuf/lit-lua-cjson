@@ -8,7 +8,6 @@ return {
 	authors = "Lionel Duboeuf",
   files = {
     "*.lua",
-    "*.h",
     "$OS-$ARCH/*",
   }
 }

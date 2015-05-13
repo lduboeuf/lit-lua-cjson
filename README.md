@@ -2,6 +2,8 @@
 lit wrapper for Mark Pulford's lua-cjson library
 http://www.kyne.com.au/~mark/software/lua-cjson.php
 
+tested successfully on Linux-x64
+TODO - build for MacosX and Windows 
 #install
 lit install lduboeuf/lit-lua-cjson
 
