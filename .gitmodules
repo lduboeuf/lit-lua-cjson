@@ -1,0 +1,3 @@
+[submodule "lua-cjson"]
+	path = lua-cjson
+	url = https://github.com/mpx/lua-cjson
