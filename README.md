@@ -16,5 +16,11 @@ local cjson = require('cjson')
 text = cjson.encode(value)
 value = cjson.decode(text)
 ```
-more exemple of use can be found in manual.txt from Mark Pulford's lua-cjson repository
+see [manual.txt](https://github.com/mpx/lua-cjson/blob/master/manual.txt) from Mark Pulford's lua-cjson repository
+
+
+#Licence
+Lua CJSON is covered by the MIT license
+
+
 
